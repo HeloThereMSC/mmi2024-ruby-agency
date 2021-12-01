@@ -14,7 +14,12 @@
     transition: 0.25s;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+    font-size: 26px;
+    border: 3px solid #C4A32E;
+>>>>>>> a5ad34eb93d9722017f6185a3cdef25d2c3958de
 
 }
 .Ou{
@@ -22,6 +27,8 @@
     font-family: Poppins, sans-serif;
     font-weight: bold;
     text-align: center;
+    font-size: 47px;
+    padding-bottom: 64px;
 }
 
 .add_ou{
@@ -46,13 +53,14 @@ margin-bottom: 60px;
 .button_ou:hover{
     background: #353535;
     color: white;
+    border: 3px solid #C4A32E;
     transition: 0.25s; 
 }
 
 .article_ou{
     padding: 0px;
     background-color: #353535;
-    padding-bottom: 60px;
+    padding-bottom: 104px;
 }
 
 .icon_ou{
