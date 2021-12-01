@@ -82,8 +82,8 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding-right: 300px;
-   }
+    padding-right: 0px;
+}
    
 .menu a{
     color: white;
@@ -129,6 +129,6 @@ ul.subnav{
     display: flex;
 }
 
-section{ 
+.first-marge{ 
     margin-left: 119px;
 }
