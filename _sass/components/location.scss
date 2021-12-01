@@ -1,0 +1,63 @@
+@font-face { font-family: Poppins; src: url('Poppins.otf'); } 
+
+
+
+
+.button_ou {
+    display: flexbox;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #C4A32E;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.25s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+
+}
+.Ou{
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.add_ou{
+    color: white;
+    list-style:none;
+margin-left: 30px;
+margin-bottom: 60px;
+
+}
+
+.ou_div{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.liste_ou{
+    align-content: space-around;
+}
+
+.button:hover_ou{
+    background: #353535;
+    color: white;
+    transition: 0.25s;
+    
+    
+}
+
+.article_ou{
+    margin-bottom: 10%;
+    padding: 0px;
+    background-color: #353535;
+    padding-bottom: 60px;
+}
+
+.icon_ou{
+    display: flex;
+    flex-direction: row;
+}
