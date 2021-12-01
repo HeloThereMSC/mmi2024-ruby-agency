@@ -1,0 +1,136 @@
+header{
+    margin:0px ; 
+    
+    
+}
+.cover{
+    margin-bottom: -55px;
+    display: flex;
+    margin: right 0PX;
+
+
+}
+h1{
+    color: white;
+    margin-left: 119px;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+    font-size: 59px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-top: 300px;
+    position:absolute
+}
+
+
+.logo {
+    margin-top: 50px;
+    display: flex;
+    width:136px ;
+    height:112px;
+    margin-left: 93px;
+    position:absolute
+}
+
+.button2 
+{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top:10px;
+    flex: 3 auto;
+    justify-content: center;
+    transition: 0.25s;
+}
+.menu_deroulant{
+    list-style: none;
+    display: flex;
+
+    
+}
+
+.menu{
+    background-color: rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0px;
+    margin-left: 119px;
+    margin-bottom: -20px;
+    font-family:'Poppins', sans-serif;
+    z-index: index 1; ;
+    
+
+    
+}
+ul{
+    list-style: none;
+}
+
+.background{
+    display: flex;
+  
+}
+.titre-film{
+    color: white;
+}
+.categories-films{
+    display: flex;
+}
+.categories-films li{
+    color: #C4A32E;
+    margin-right: 10px;
+}
+.menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 300px;
+   }
+   
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.item-menu:hover{
+    background: #c4a42e7e;
+    transition: 0.25s;
+}
+.link-menu:hover{
+opacity: 50%;
+}
+
+   
+
+.subnav{
+    display:none;
+    position: absolute;
+    transition: 0.25s;
+    background-color: rgba(192,162,46, 0.5);
+
+
+}
+
+
+.item-menu:hover .subnav{
+    display:block;
+    text-align: start;
+    transition: 0.25s;
+
+}
+ul.subnav{
+    padding-left: 0px;
+}
+.button2:hover{
+    background-color:rgba(192, 162, 48,0.5);
+    transition: 0.25s;
+}
+
+
+.background {
+    display: flex;
+}
+
+section{ 
+    margin-left: 119px;
+}

@@ -1,9 +1,8 @@
 @import "base/reset";
-
 @import "abstracts/variables";
 @import "base/common";
-
-@import "components/header";
+@import "components/couroussel.scss";
+@import "components/header.scss" ;
 @import "components/footer";
 @import "components/news";
 @import "components/histoire-megarama.scss"
