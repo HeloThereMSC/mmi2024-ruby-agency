@@ -1,0 +1,82 @@
+.lastmin {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content:space-between;
+    align-items:center;
+}
+.lastmin .title {
+    margin: 0;
+    font-size: 47px;
+    text-align: center;
+}
+.lastmin .wrapper {
+    max-width: 100%;
+}
+
+.list-film {
+    max-width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+    align-items:flex-start;
+    text-align: center;
+    overflow-x: auto;
+
+}
+.lastmin .affiche img {
+    width: 100%;
+    opacity: 1;
+}
+.lastmin .affiche:hover img {
+  
+    opacity: 0.5;
+    transition: opacity 0.3s ease-out;
+}
+.lastmin .image {
+    background-color:#353535;
+    position: relative;
+}
+.lastmin .affiche {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: auto;
+    width: 300px;
+    min-width: 250px ;
+    margin-bottom: 50px;
+    transition: 0.25s;
+}
+.lastmin .affiche:hover .button {
+    opacity: 1;
+}
+.lastmin .affiche:hover {
+    transition: 0.25s;
+    width: 320px;
+}
+.lastmin .affiche p {
+    font-size: 24px;
+}
+.lastmin .affiche .button {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #C4A32E;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: 0.25s;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    opacity: 0;
+}
+.lastmin .button:hover{
+    background: #353535;
+    color: white;
+    transition: 0.25s;
+    opacity: 1;
+}
