@@ -1,0 +1,88 @@
+
+body{
+    margin:0%;
+    background-color: #E4E4E4;
+}
+footer{
+    color:#C4A32E;
+    display: flow-root;
+    justify-content: flex-end;
+    background-color: #0D0D0D; 
+
+}
+
+h2 { 
+    font-family: Poppins, sans-serif; 
+    font-size: 30px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+li { 
+    font-family: Open, sans-serif;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.global {
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+
+    
+    
+}
+.global2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    align-items: center;
+    padding-right: 75px ;
+}
+
+
+.App {
+    flex-direction: column;
+    display: flex;
+    
+}
+.Home {
+    flex-direction: column;
+}
+
+img{
+    margin: 0px;
+}
+
+.logoimage{
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    margin-left: 50px;
+}
+
+.Usefull-Info{
+    padding-right: 0px;
+    padding-left: 200px;
+}
+
+.insta{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.yt{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.tel{
+    margin-left: 7.5cm;
+}
+
+.foot{
+    list-style: none;
+    padding: 0px;
+}
