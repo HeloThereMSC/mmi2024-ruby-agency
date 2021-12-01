@@ -6,9 +6,10 @@ header{
 .cover{
     margin-bottom: -55px;
     display: flex;
-    
 
-
+    img{
+        width: 100%;
+    }
 }
 .gros_titre{
     color: white;
@@ -133,4 +134,7 @@ ul.subnav{
 
 .first-marge{ 
     margin-left: 119px;
+}
+.barre {
+    padding-right: 50px;
 }
