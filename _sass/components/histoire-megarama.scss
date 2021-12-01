@@ -10,16 +10,16 @@
     padding-top: 10%;
 }
 .text{
-    // width: 935px,131px,0px;
+
     margin-left: 203px;
     margin-right: 182px;
+    margin-bottom: 60px;
     font-family:'Open Sans', sans-serif;
     font-size: 24px;
-    // display: flex;
-    // align-items: flex-start;
+
 }
 
-.button {
+.button-history {
     text-align: center;
     text-decoration: none;
     color: black;
@@ -30,6 +30,8 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 19px;
+    margin-bottom: 108px;
+    border: 3px solid #353535;
 }
 
 .title {
@@ -37,8 +39,10 @@
     margin-bottom: 37px;
     }
 
-.button:hover{
+.button-history:hover{
     background: #353535;
     color: white;
     transition: 0.25s;
+    border: 3px solid #C4A32E;
+
 }
