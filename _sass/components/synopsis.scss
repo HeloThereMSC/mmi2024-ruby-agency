@@ -43,14 +43,19 @@ margin-bottom: 65px;
     background-color: #C4A32E;
     padding: 7px;
     border-radius: 10px;
-    transition: 0.25s;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 19px;
     border: 3px solid #C4A32E;
 
 }
-
+.ba:hover{
+    text-decoration: none;
+    transition: 0.25s;
+    background-color:  #353535;
+    border: 3px solid #C4A32E;
+    color: rgb(255, 255, 255);
+}
 
 
 
