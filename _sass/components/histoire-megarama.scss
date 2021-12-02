@@ -10,13 +10,23 @@
 }
 .text-histoire{
 
-    margin-left: 203px;
-    margin-right: 182px;
-    margin-bottom: 60px;
-    margin-top: 83px;
-    font-family:'Open Sans', sans-serif;
-    font-size: 24px;
 
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+}
+
+@media (min-width:992px) {
+    .text-histoire{
+        margin-left: 203px;
+        margin-right: 182px;
+        margin-bottom: 60px;
+        margin-top: 83px;
+        font-size: 59px;
+    }
 }
 
 .button-history {
@@ -36,11 +46,18 @@
 
 .title-histoire {
     font-family: 'Poppins' ;
-    font-size: 47px;
+    font-size: 24px;
     font-weight:bold;
     margin-bottom: 37px;
     padding-top: 62px;
     color: white;
+    }
+
+@media (min-width:992px) {
+        .text-histoire{
+
+            font-size: 47px;
+        }
     }
 
 .button-history:hover{
