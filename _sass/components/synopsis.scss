@@ -1,5 +1,4 @@
 .texts{
-    display: flex;
     font-size: 56px; 
     color: white;
 
@@ -8,17 +7,25 @@
     flex-direction: column;
     text-align: start;
     color: white;
-    margin: 200px;
-    line-height: 120%;
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    left: 120px;
+    top: 800px;
 
 }
 .synopsis {
-    display: flex;
     background-color: #353535;
+    display: flex;
 }
 .j1 {
-    margin:200px;
-    justify-content:right;
-    justify-items: right;
-    max: 100% ;
+   
+
+    position:flex;
+    width: 488px;
+    height: 653px;
+    left: 832px;
+    top: 710px;
+    bottom: 800px;
+    
 }
