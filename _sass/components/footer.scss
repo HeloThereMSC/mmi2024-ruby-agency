@@ -48,7 +48,7 @@ footer{
     text-decoration: none;
     color: #C4A32E;
 }
-.lien-footer:hover{
+.all-link:hover .lien-footer{
     color: #ffffff;
     text-decoration-line: overline;
     text-decoration-color: #C4A32E;
@@ -92,20 +92,25 @@ li {
     justify-content: space-evenly;
     margin: 0px;
     align-items: center;
+.link-rsx{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+    align-self: center;
+}
+.lien-rs{
+    display: block;
 
+}
 }
 
 
 
-.Usefull-Info{
-    margin-left: 710px;
-    margin-right: 88px;
-    // position: absolute;
-}
+
+
 .App {
     flex-direction: column;
-    margin-left: 1035px;
-    margin-top: 100px;
+
 
     
 }
