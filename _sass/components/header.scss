@@ -52,8 +52,6 @@ header{
 .menu_deroulant{
     list-style: none;
     display: flex;
-
-    
 }
 
 .menu{
@@ -65,7 +63,6 @@ header{
     font-family:'Open Sans', sans-serif;
     font-weight: 600;
     z-index: 100;
-    
     padding: 8px;
 }
 
@@ -103,9 +100,10 @@ ul{
 }
 
 .menu a{
-    color: white;
-    text-decoration: none;
+        text-decoration: none;
+        color: white;
 }
+    
 
 .item-menu{
     width: 200px;
