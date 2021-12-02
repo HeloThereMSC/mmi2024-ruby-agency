@@ -5,6 +5,19 @@
     justify-content:space-between;
     align-items:center;
     background-color: white;
+
+    .title{
+        font-weight: bold;
+        font-size: 47px;
+    }
+.title-film{
+    font-family: 'poppins';
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 116px;
+}
 }
 .lastmin .title {
     margin: 0;
