@@ -6,9 +6,11 @@
 }
 .des {
     font-size: 24px;
-    display: flex;
+    margin-top: 50px;
     color: white;
     line-height: 120%;
+    margin-left: 75px;
+
 
 }
 .synopsis {
@@ -16,10 +18,17 @@
     background-color: #353535;
 }
 .j1 {
-
+    display: flex;
     justify-content:right;
     justify-items: right;
-    max: 100% ;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.ba{
+    margin-left: 275px;
+    justify-content: center;
+    
 }
 
 .synop
@@ -28,4 +37,11 @@
     color: white;
     display : block;
     text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+    font-size: 38px;
+    max-height: 200px;
+
 }
