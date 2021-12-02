@@ -13,9 +13,33 @@
     }
  }
 
+.ou_div{
+    display:block;
+    margin: 50px;
+    
 
+}
 
-.image_flex {
+ @media (min-width: 992px) { 
+.ou_div {
     display: flex;
     ;
+}
+}
+
+.map{
+    object-fit: cover;
+    justify-self: left;
+}
+
+.image_flex{
+    max-width: 99px;
+    max-height: 103px;
+}
+@media (min-width:992px) {
+    .image_flex{
+
+        max-width: 154px; 
+        max-height: 205px;
+    }
 }
