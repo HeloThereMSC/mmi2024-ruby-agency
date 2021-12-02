@@ -30,11 +30,23 @@ footer{
     font-size: 30px;
     // padding-top: 39px;
     font-weight: bold;
-    
 
+
+}
+.lien-footer{
+    text-decoration: none;
+    color: #C4A32E;
+}
+.lien-footer:hover{
+    color: #ffffff;
+    text-decoration-line: overline;
+    text-decoration-color: #C4A32E;
 }
 
 
+.film-sous-menu:hover{
+color: #ffffff;
+}
 
 
 li { 
@@ -66,7 +78,7 @@ li {
 .Usefull-Info{
     margin-left: 710px;
     margin-right: 88px;
-    position: absolute;
+    // position: absolute;
 }
 .App {
     flex-direction: column;
@@ -115,4 +127,6 @@ img{
     // padding-bottom: 102px;
 }
 
-
+.row{
+    margin: 0px;
+}
