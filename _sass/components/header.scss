@@ -56,12 +56,17 @@ header{
     margin-bottom: -20px;
     font-family:'Poppins', sans-serif;
     z-index: index 1000 ;
+    padding: 10px;
     
 
     
 }
 ul{
     list-style: none;
+    z-index: 999;
+}
+..d-block{
+    z-index: 1;
 }
 
 .background{
