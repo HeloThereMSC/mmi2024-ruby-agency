@@ -4,20 +4,19 @@
     color: white;
 
 }
-.des {font-size: 24px;
-    flex-direction: column;
-    text-align: start;
+.des {
+    font-size: 24px;
+    display: flex;
     color: white;
-    margin: 200px;
     line-height: 120%;
 
 }
 .synopsis {
-    display: flex;
+
     background-color: #353535;
 }
 .j1 {
-    margin:200px;
+
     justify-content:right;
     justify-items: right;
     max: 100% ;
