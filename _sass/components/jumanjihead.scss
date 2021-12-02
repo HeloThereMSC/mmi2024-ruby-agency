@@ -7,12 +7,13 @@ header{
     margin-bottom: -55px;
     display: flex;
     img {
+        
         width:100% ;
         object-fit: cover;
     }
-
-    img {
-        width: 100%;
+    .j2 {
+        height: 700px;
+        width:100% ;
         object-fit: cover;
     }
 
@@ -60,11 +61,11 @@ header{
     background-color: rgba(0,0,0,0.3);
     position: sticky;
     top: 0px;
-    margin-left: 120px;
+    margin-left: 119px;
     margin-bottom: -20px;
-    font-family:'Open Sans', sans-serif;
-    z-index: index 1;
-    padding: 8px;
+    font-family:'Poppins', sans-serif;
+    z-index: index 1000 ;
+    padding: 10px;
     
 
     
@@ -94,7 +95,7 @@ ul{
 .menu1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     padding-right: 0px;
     
@@ -105,28 +106,24 @@ ul{
     text-decoration: none;
 }
 
-.item-menu{
-    width: 200px;
-    align-items: center;
-    text-align: center;
-}
-
 .item-menu:hover{
     background: #c4a42e7e;
-    border-radius: 1px;
     transition: 0.25s;
 }
+.link-menu:hover{
+opacity: 50%;
+}
+
+   
 
 .subnav{
     display:none;
     position: absolute;
-    align-items: center;
-    background-color: rgba(192,162,46, 0.5);
     transition: 0.25s;
+    background-color: rgba(192,162,46, 0.5);
 
 
 }
-
 
 
 .item-menu:hover .subnav{
@@ -135,15 +132,9 @@ ul{
     transition: 0.25s;
 
 }
-
-.subnav:hover {
-    transition: 0.25s;
-}
-
 ul.subnav{
     padding-left: 0px;
 }
-
 .button2:hover{
     background-color:rgba(192, 162, 48,0.5);
     transition: 0.25s;

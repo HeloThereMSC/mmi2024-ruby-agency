@@ -1,27 +1,22 @@
-.text1{
+
+.text8
+{ 
+    margin-right: 100px;
+    display:flex ;
     font-size:59px ;
-    color: white;
-    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: flex-start;
     padding: 10px;
     font-family:'Poppins';
     font-size: 48px;
     font-weight: bold;
 }
-.text2{
-    font-size:36px ;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    font-family:'Open Sans';
-    font-size: 24px;
 
-
-}
-.affiche3
+.affiche8
 {
     flex-direction: column;
     display: flex;
-    background-color: #353535;
+    background-color: #ffffff;
     align-self: center;
     justify-content: center;
     background-size:cover ;
@@ -39,7 +34,7 @@
 .carousel {
     padding-right: 0px ;
     padding-bottom: 50px ;
-    background-color: #353535;
+    background-color: #ffffff;
 }
 .carousel-control-next
 {
