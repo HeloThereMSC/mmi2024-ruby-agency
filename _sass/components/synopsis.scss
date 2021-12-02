@@ -7,11 +7,9 @@
     font-size: 24px;
     margin-top: 50px;
     color: white;
-    position: absolute;
-    width: 700px;
-    height: 1000px;
-    left: 120px;
-    top: 800px;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 135%;
 
 }
 .synopsis {
@@ -21,16 +19,26 @@
 }
 .j1 {
     display: flex;
-    justify-content:right;
-    justify-items: right;
+
     margin-left: 150px;
     margin-top: 50px;
 }
 
 .ba{
-    margin-left: 275px;
-    justify-content: center;
-    
+
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #C4A32E;
+    padding: 7px;
+    border-radius: 10px;
+    transition: 0.25s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    border: 3px solid #C4A32E;
+
 }
 
 .synop
@@ -45,5 +53,11 @@ span {
     font-weight: bold;
     font-size: 38px;
     max-height: 200px;
+    font-family: 'Poppins';
 
+}
+
+.sec_boutton{
+    background-color: #353535;
+    padding-bottom: 150px;
 }
