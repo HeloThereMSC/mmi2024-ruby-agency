@@ -57,7 +57,7 @@ header{
     margin-left: 120px;
     margin-bottom: -20px;
     font-family:'Open Sans', sans-serif;
-    z-index: index 1;
+    z-index: 1;
     padding: 8px;
     
 
@@ -112,22 +112,19 @@ ul{
 }
 
 .subnav{
-    display:none;
     position: absolute;
     align-items: center;
     background-color: rgba(192,162,46, 0.5);
-    transition: 0.25s;
-
-
+    transition: 0.5s ease-in-out;
+    max-height: 0px;
+    overflow: hidden;
 }
 
 
 
 .item-menu:hover .subnav{
-    display:block;
     text-align: start;
-    transition: 0.25s;
-
+    max-height: 300px;
 }
 
 .subnav:hover {
