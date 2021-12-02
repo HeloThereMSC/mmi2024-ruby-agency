@@ -1,6 +1,14 @@
 .phonepass{
-    width: 400px;
+    max-width: 225px; 
+    max-height: 295px;
+
     display: flex;
+}
+@media (min-width:992px) {
+    .phonepass{
+
+        width: 400px;
+    }
 }
 
 .passetu {
@@ -18,7 +26,13 @@
 
 .sub-text{
     display: flex;
-    font-size: 15px;
+    font-size: 10px;
+}
+@media (min-width:992px) {
+    .sub-text{
+
+        font-size: 15px;
+    }
 }
 
 .button {
@@ -49,9 +63,16 @@ h3 {
 
 .tarif {
     text-align: center;
-    font-size: 24px;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
+@media (min-width:992px) {
+    .tarif{
+
+        font-size: 24px;
+    }
+}
+
 
 .pass, .button{
     justify-content: space-around;
@@ -61,4 +82,21 @@ h3 {
     background: #353535;
     color: white;
     transition: 0.25s;
+}
+
+.phonefont1{
+    font-size: 24px;
+}
+.phonefont2{
+    font-size: 24px;
+}
+
+@media (min-width:992px) {
+    .phonefont1{
+
+        font-size: 59px;
+    }
+    .phonefont2{
+        font-size: 36px;
+    }
 }
