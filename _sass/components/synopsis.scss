@@ -5,7 +5,7 @@
 }
 .des {
     font-size: 24px;
-    display: flex;
+    margin-top: 50px;
     color: white;
     position: absolute;
     width: 700px;
@@ -16,6 +16,8 @@
 }
 .synopsis {
     line-height: 120%;
+    margin-left: 75px;
+
 
 }
 .synopsis {
@@ -24,6 +26,7 @@
     display: flex;
 }
 .j1 {
+<<<<<<< HEAD
    
 
     position:flex;
@@ -34,7 +37,32 @@
     bottom: 800px;
     
 
+=======
+    display: flex;
+>>>>>>> fdfff51d78de1124c21f6c107e713a974af912a7
     justify-content:right;
     justify-items: right;
-    max: 100% ;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.ba{
+    margin-left: 275px;
+    justify-content: center;
+    
+}
+
+.synop
+{
+    font-weight: bold;
+    color: white;
+    display : block;
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+    font-size: 38px;
+    max-height: 200px;
+
 }
