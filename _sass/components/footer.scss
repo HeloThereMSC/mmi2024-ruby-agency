@@ -47,7 +47,14 @@ footer{
 .lien-footer{
     text-decoration: none;
     color: #C4A32E;
+    font-size: 12px;
 }
+    @media (min-width:992px) {
+        .lien-footer{ 
+            font-size: 30px;
+        }
+    }
+
 .all-link:hover .lien-footer{
     color: #ffffff;
     text-decoration-line: overline;
