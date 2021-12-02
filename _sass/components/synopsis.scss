@@ -1,11 +1,15 @@
 .texts{
     display: flex;
-    font-size: 24px; 
-    align-items: flex-start;
+    font-size: 56px; 
+    color: white;
 
 }
-.des {font-size: 18px;
-    text-align: left;
+.des {font-size: 24px;
+    flex-direction: column;
+    text-align: start;
+    color: white;
+    margin: 200px;
+    line-height: 120%;
 
 }
 .synopsis {
@@ -13,7 +17,8 @@
     background-color: #353535;
 }
 .j1 {
-    margin-right: 50px;
+    margin:200px;
     justify-content:right;
     justify-items: right;
+    max: 100% ;
 }
