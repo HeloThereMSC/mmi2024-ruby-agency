@@ -30,8 +30,17 @@ footer{
     font-size: 15px;
     padding-top: 39px;
     font-weight: bold;
-    
 
+
+}
+.lien-footer{
+    text-decoration: none;
+    color: #C4A32E;
+}
+.lien-footer:hover{
+    color: #ffffff;
+    text-decoration-line: overline;
+    text-decoration-color: #C4A32E;
 }
 @media (min-width:992px) {
     .titre-menu-footer{
@@ -40,6 +49,9 @@ footer{
 }
 
 
+.film-sous-menu:hover{
+color: #ffffff;
+}
 
 
 li { 
@@ -77,7 +89,7 @@ li {
 .Usefull-Info{
     margin-left: 710px;
     margin-right: 88px;
-    position: absolute;
+    // position: absolute;
 }
 .App {
     flex-direction: column;
@@ -123,4 +135,6 @@ img{
 
 }
 
-
+.row{
+    margin: 0px;
+}
