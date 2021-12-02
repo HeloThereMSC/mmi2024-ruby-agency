@@ -156,3 +156,27 @@ img{
 .row{
     margin: 0px;
 }
+
+.google{
+    max-width: 83px;
+    max-height: 31px;
+}
+@media (min-width:992px) {
+    .google{
+
+        max-width: 161px; 
+        max-height: 62px;
+    }
+}
+
+.apple{
+    max-width: 78px;
+    max-height: 30px;
+}
+@media (min-width:992px) {
+    .apple{
+
+        max-width: 152px; 
+        max-height: 59px;
+    }
+}
