@@ -1,10 +1,6 @@
-@font-face { font-family: Poppins; src: url('Poppins.otf'); } 
-
-
-
 
 .button_ou {
-    display: flexbox;
+    display: flex;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -14,13 +10,7 @@
     transition: 0.25s;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-<<<<<<< HEAD
     font-size: 18px;
-=======
-    font-size: 26px;
-    border: 3px solid #C4A32E;
->>>>>>> a5ad34eb93d9722017f6185a3cdef25d2c3958de
-
 }
 .Ou{
     color: #FFFFFF;

@@ -2,15 +2,19 @@
     font-size:59px ;
     color: white;
     text-align: center;
-    font-family:'Poppins', sans-serif;
     padding: 10px;
+    font-family:'Poppins';
+    font-size: 48px;
+    font-weight: bold;
 }
 .text2{
     font-size:36px ;
     color: white;
     text-align: center;
     justify-content: center;
-    font-family:'Poppins', sans-serif;
+    font-family:'Poppins';
+    font-size: 24px;
+    font-weight: bold;
 
 }
 .affiche3
@@ -37,7 +41,21 @@
     padding-bottom: 50px ;
     background-color: #353535;
 }
-.carousel-control-prev
+.carousel-control-next
 {
-    z-index: 0;
+   border-color:#c4a42e7e ; 
+}
+.btn-outline-success {
+    color:#c4a42e7e;
+}
+.btn-outline-success
+{
+    border-color: darkgoldenrod;
+
+}
+.btn-outline-success:hover
+{
+    color: darkgray;
+    border-color: darkgray;
+    background-color: white;
 }
