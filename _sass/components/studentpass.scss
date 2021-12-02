@@ -27,6 +27,8 @@
 .sub-text{
     display: flex;
     font-size: 10px;
+    margin-top: 55px;
+    margin-bottom: 92px;
 }
 @media (min-width:992px) {
     .sub-text{
@@ -65,6 +67,7 @@ h3 {
     text-align: center;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 41px;
 }
 @media (min-width:992px) {
     .tarif{
@@ -86,9 +89,12 @@ h3 {
 
 .phonefont1{
     font-size: 24px;
+    margin-top: 86px;
+    margin-bottom: 41px;
 }
 .phonefont2{
     font-size: 24px;
+    margin-bottom: 41px;
 }
 
 @media (min-width:992px) {
@@ -99,4 +105,7 @@ h3 {
     .phonefont2{
         font-size: 36px;
     }
+}
+.image{
+    margin-top: 94px;
 }
