@@ -8,6 +8,17 @@ footer{
 
 }
 
+.dimen_logo{
+    max-width: 54px;
+    max-height: 47px;
+}
+@media (min-width:992px) {
+    .dimen_logo{
+
+        max-width: 129.39px; 
+        max-height: 129px;
+    }
+
 .Film{
     margin-top: 36px;
 }
