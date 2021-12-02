@@ -1,0 +1,52 @@
+h2
+{
+    margin-top:0% ;
+    font-size: 59px;
+    color: black ;
+}
+h3 {
+    font-size: 36px;
+    color: black;
+}
+.all {
+    background-color: white;
+    margin:0px;
+}
+.reservation{
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+   
+}
+.date {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.heure {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+
+}
+.choixheure 
+{
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+.boutonhorraire {
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 130%;
+
+}
