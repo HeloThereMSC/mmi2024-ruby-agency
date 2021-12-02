@@ -1,20 +1,20 @@
 
 .text8
 { 
-    margin-right: 5px;
+
     display:flex ;
-    font-size:59px ;
+    font-size:47px ;
     color: rgb(0, 0, 0);
-    align-items: flex-start;
-    padding: 10px;
+    align-items: center;
     font-family:'Poppins';
-    font-size: 24px;
     font-weight: bold;
+
 }
 @media (min-width:992px) {
     .text8{
         font-size: 48px;
-        margin-right: 100px;
+        margin-left: 100px;
+
     }
 }
 .affiche8
@@ -25,7 +25,7 @@
     align-self: center;
     justify-content: center;
     background-size:cover ;
-    padding:50px;
+    padding:71px;
     
 }
 
