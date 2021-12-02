@@ -11,3 +11,21 @@
 
 
 }
+
+.logo{
+    margin-left: 25px;
+}
+@media (min-width:992px) {
+    .logo{
+        margin-left: 120px;
+    }
+}
+
+.gros_titre{
+    margin-left: 25px;
+}
+@media (min-width:992px) {
+    .gros_titre{
+        margin-left: 120px;
+    }
+}

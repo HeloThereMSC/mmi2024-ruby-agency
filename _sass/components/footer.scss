@@ -37,7 +37,7 @@ footer{
     font-weight: bold;
 }
 .titre-menu-footer { 
-    font-family: Poppins, sans-serif; 
+    font-family: 'Poppins', sans-serif; 
     font-size: 15px;
     padding-top: 39px;
     font-weight: bold;
@@ -47,7 +47,14 @@ footer{
 .lien-footer{
     text-decoration: none;
     color: #C4A32E;
+    font-size: 12px;
 }
+    @media (min-width:992px) {
+        .lien-footer{ 
+            font-size: 30px;
+        }
+    }
+
 .all-link:hover .lien-footer{
     color: #ffffff;
     text-decoration-line: overline;
@@ -56,10 +63,13 @@ footer{
 @media (min-width:992px) {
     .titre-menu-footer{
         font-size: 30px;
+
     }
 }
 
-
+.apple{
+    margin-bottom: 122px;
+}
 .film-sous-menu:hover{
 color: #ffffff;
 }
