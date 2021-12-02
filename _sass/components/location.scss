@@ -4,7 +4,7 @@
 
 
 .button_ou {
-    display: flexbox;
+    align-self: flex-start;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -42,6 +42,8 @@ margin-bottom: 60px;
 }
 
 .liste_ou{
+    display: flex;
+    flex-direction: column;
     align-content: space-around;
 }
 
