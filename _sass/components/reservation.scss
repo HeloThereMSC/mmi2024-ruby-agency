@@ -28,7 +28,9 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    width: auto;
+    width: 200%;
+    
+
 }
 .heure {
     display: flex;
@@ -75,5 +77,6 @@ h3 {
 
 .date .button
 {
-    flex: 50em;
+   width: auto ;
 }
+
