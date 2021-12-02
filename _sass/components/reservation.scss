@@ -13,18 +13,22 @@ h3 {
     margin:0px;
 }
 .reservation{
-    margin: 60px;
+    margin: 60px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    position: relative;
+    width: 50%;
+   
     
    
 }
 .date {
     display: flex;
     justify-content: space-evenly;
-    width: 80%;
+    position: relative;
+    width: auto;
 }
 .heure {
     display: flex;
@@ -49,4 +53,27 @@ h3 {
     justify-content: space-evenly;
     width: 130%;
 
+}
+.flechedroite
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 1500px;
+    bottom : -5px ;
+
+
+
+
+}
+.slide
+{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.date .button
+{
+    flex: 50em;
 }
