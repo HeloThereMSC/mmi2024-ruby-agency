@@ -1,8 +1,13 @@
-.texts{
-    font-size: 56px; 
+.title-synopsis{
+    font-size: 38px; 
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
     color: white;
-
+    margin-top: 77px;
+    margin-bottom: 44px;
+    max-height: 200px;
 }
+
 .des {
     font-size: 24px;
     margin-top: 50px;
@@ -15,18 +20,23 @@
 .synopsis {
     line-height: 120%;
     background-color: #353535;
-    display: flex;
 }
 .j1 {
     display: flex;
 
-    margin-left: 150px;
-    margin-top: 50px;
-}
+    margin-right: 123px;
+    margin-top: 120px;
+    margin-left: 27px;
 
+}
+.ba-parent{
+margin-left: 261px;
+margin-top: 30px;
+margin-bottom: 65px;
+}
 .ba{
 
-
+// align-self: flex-start;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -41,23 +51,11 @@
 
 }
 
-.synop
-{
-    font-weight: bold;
-    color: white;
-    display : block;
-    text-decoration: none;
-}
 
-span {
-    font-weight: bold;
-    font-size: 38px;
-    max-height: 200px;
-    font-family: 'Poppins';
 
-}
+
 
 .sec_boutton{
     background-color: #353535;
-    padding-bottom: 150px;
+
 }
