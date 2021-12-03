@@ -2,18 +2,20 @@
 .text8
 { 
 
-    display:flex ;
-    font-size:24px ;
+    font-size:38px ;
     color: rgb(0, 0, 0);
-    align-items: center;
+    margin-left: 100px ;
     font-family:'Poppins';
     font-weight: bold;
+    
 
 }
 @media (min-width:992px) {
     .text8{
         font-size: 48px;
         margin-left: 100px;
+        margin-bottom: 50px;
+        margin-top: 50px;
 
     }
 }
@@ -25,7 +27,7 @@
     align-self: center;
     justify-content: center;
     background-size:cover ;
-    padding:71px;
+    
     
 }
 
