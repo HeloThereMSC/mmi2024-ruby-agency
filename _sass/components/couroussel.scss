@@ -33,6 +33,7 @@
     justify-content: center;
     background-size:cover ;
     padding:50px;
+    margin-top: 0px;
     
 }
 
@@ -43,11 +44,14 @@
          z-index: 0;
      }
  }
+
  .carousel {
      padding-right: 0px ;
      padding-bottom: 50px ;
      background-color: #353535;
+     margin: 0px;
  }
+
  .carousel-control-next
  {
     border-color:#c4a42e7e ; 
@@ -66,3 +70,11 @@
 //      border-color: darkgray;
 //      background-color: white;
 //  }
+.carousel-indicators [data-bs-target]
+{
+    background-color: black;
+}
+.bloc1
+{
+    margin-top: 0px;
+}

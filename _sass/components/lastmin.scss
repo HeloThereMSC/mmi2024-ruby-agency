@@ -5,8 +5,32 @@
     justify-content:space-between;
     align-items:center;
     background-color: white;
+    margin-top: 0px;
 }
     
+.affiche-lastmin{
+ max-width: 150px;
+ max-height: auto;
+
+}
+@media (min-width:992px) {
+    .affiche-lastmin{
+    max-height:356px ;
+    max-width: 250px ;
+
+    }
+}
+
+.wrapper{
+    margin-right: 150px;
+}
+
+@media (min-width:992px) {
+    .wrapper{
+    margin-right: 0px;
+
+    }
+}
 
 
 .title{
@@ -32,13 +56,13 @@
 }
 
 .list-film {
-    max-width: 100%;
+    
     padding: 0px;
     display: block;
     flex-direction: row;
     list-style: none;
     text-align: center;
-    overflow-x: auto;
+
 
 }
 @media (min-width:992px) {
@@ -46,6 +70,8 @@
         display: flex;
         justify-content: flex-start;
         align-items:flex-start;
+        margin-bottom: 150px;
+        max-width: 100%;
     }
 }
 
