@@ -112,19 +112,22 @@ ul{
 }
 
 .item-menu:hover{
-    background: #c4a42e7e;
+    background: blue;
+    margin-top: 15px;
     border-radius: 1px;
     transition: 0.5 ease-in-out;
 }
-
+.carre-film{
+    background-color: red;
+}
 .subnav{
     position: absolute;
     align-items: center;
-    background-color: rgba($color: #535353, $alpha: 0.9);
+    background-color: #C4A32E;
     transition: 0.5s ease-in-out;
     max-height: 0px;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     color: white;
     font-family:'Open Sans', sans-serif;
     font-weight: 200;
