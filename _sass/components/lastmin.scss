@@ -5,10 +5,13 @@
     justify-content:space-between;
     align-items:center;
     background-color: white;
+}
+    
 
-    .title{
-        font-weight: bold;
-        font-size: 47px;
+
+.title{
+    font-weight: bold;
+    font-size: 47px;
     }
 .title-film{
     font-family: 'poppins';
@@ -18,7 +21,7 @@
     margin-bottom: 20px;
     margin-top: 116px;
 }
-}
+
 .lastmin .title {
     margin: 0;
     font-size: 47px;
@@ -30,30 +33,36 @@
 
 .list-film {
     max-width: 100%;
-    padding: 0;
-    display: flex;
+    padding: 0px;
+    display: block;
     flex-direction: row;
     list-style: none;
-    justify-content: flex-start;
-    align-items:flex-start;
     text-align: center;
     overflow-x: auto;
 
 }
+@media (min-width:992px) {
+    .list-film{
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+    }
+}
+
 .lastmin .affiche img {
     width: 100%;
     opacity: 1;
 }
-.lastmin .affiche:hover img {
+.lastmin .affiche-lastmin:hover img {
   
     opacity: 0.5;
     transition: opacity 0.3s ease-out;
 }
-.lastmin .image {
+.lastmin .image-affiche-lastmin {
     background-color:#353535;
     position: relative;
 }
-.lastmin .affiche {
+.lastmin .affiche-lastmin {
     margin-left: 3rem;
     margin-right: 3rem;
     height: auto;
@@ -64,17 +73,17 @@
     margin-top: 20px;
     
 }
-.lastmin .affiche:hover .button {
+.lastmin .affiche-lastmin:hover .button-lastmin {
     opacity: 1;
 }
-.lastmin .affiche:hover {
+.lastmin .affiche-lastmin:hover {
     transition: 0.25s;
     width: 320px;
 }
-.lastmin .affiche p {
+.lastmin .affiche-lastmin p {
     font-size: 24px;
 }
-.lastmin .affiche .button {
+.lastmin .affiche-lastmin .button-lastmin {
     text-align: center;
     text-decoration: none;
     color: black;
@@ -87,10 +96,11 @@
     border-radius: 30px;
     transition: 0.25s;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 19px;
     opacity: 0;
 }
-.lastmin .button:hover{
+.lastmin .button-lastmin:hover{
     background: #353535;
     color: white;
     transition: 0.25s;
