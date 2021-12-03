@@ -1,13 +1,20 @@
 .cover{
-    img {        
-        width:100% ;
-    }
+    
     .j2 {
         height: 700px;
         width:100% ;
-        object-fit: cover;
+        position: relative;
+        
+        
     }
-
+    .bouttonseance{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-bottom: 300px;
+        margin-right: 300px;
+        
+    }
 
 
 }
@@ -29,3 +36,16 @@
         margin-left: 120px;
     }
 }
+.genre{
+    color: orange;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-top: 350px;
+    margin-left: 120px;
+    position: absolute;
+    flex: 1 18px;
+
+}
+
