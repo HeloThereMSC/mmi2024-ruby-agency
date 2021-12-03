@@ -49,3 +49,26 @@
 
 }
 
+.button-jumanji {
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #C4A32E;
+    padding: 7px;
+    border-radius: 10px;
+    transition: 0.25s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    margin-bottom: 108px;
+    border: 3px solid #C4A32E;  
+    justify-content: flex-end;
+    margin-left: 1000px;
+}
+
+.button-jumanji:hover{
+    background: #353535;
+    color: white;
+    transition: 0.25s;
+}
