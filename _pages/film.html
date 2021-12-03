@@ -40,6 +40,22 @@ var date=document.getElementById("date")
 
 <script>console.log("chargement")
  
+    var date=document.getElementById("date")
+        var flechegauche=document.getElementById("reservationgauche")
+        var index=0
+        date.style.transform="translateX("+index * 12.5+"%)"
+        function clickgauche(){
+            index++
+            if(index>4){
+                index=0
+            }
+            date.style.transform="translateX("+index * -12.5+"%)"
+        }
+        flechegauche.onclick= clickgauche
+    </script>
+
+<script>console.log("chargement")
+ 
     var heure=document.getElementById("heure")
         var flechedroite1=document.getElementById("heuredroite")
         var index=0
@@ -53,4 +69,19 @@ var date=document.getElementById("date")
         }
         flechedroite1.onclick= clickdroit
 </script>
+<script>console.log("chargement")
+ 
+    var heure=document.getElementById("heure")
+        var flechegauche1=document.getElementById("heuregauche")
+        var index=0
+        heure.style.transform="translateX("+index * 12.5+"%)"
+        function clickgauche(){
+            index++
+            if(index>4){
+                index=0
+            }
+            heure.style.transform="translateX("+index * -12.5+"%)"
+        }
+        flechegauche1.onclick= clickgauche
+    </script>
 
