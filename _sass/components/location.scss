@@ -20,11 +20,17 @@
 }
 .Ou{
     color: #FFFFFF;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 47px;
+    font-size: 24px;
     padding-bottom: 64px;
+}
+@media (min-width:992px) {
+    .Ou{
+        font-size: 47px;
+
+    }
 }
 
 .add_ou{
@@ -41,10 +47,11 @@ margin-bottom: 60px;
 
 }
 
-.liste_ou{
+.list_ou{
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    margin: 50px;
 }
 
 .button_ou:hover{
@@ -63,4 +70,22 @@ margin-bottom: 60px;
 .icon_ou{
     display: flex;
     flex-direction: row;
+}
+
+.buttontop {
+    justify-content:flex-start;
+}
+
+.map {
+    max-width: 330px;
+    max-height: 179px;
+    margin-left: 50px;
+}
+@media (min-width:992px) {
+    .map{
+
+        max-width: 386px; 
+        max-height: 256px;
+
+    }
 }

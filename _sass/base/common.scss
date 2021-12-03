@@ -2,16 +2,27 @@ body {
     background-color: #a8a8a8 ;
     font-family: serif;
     margin : 0px;
+    overflow-x: hidden;
+    width: auto;
    
 }
 
 
 .margin-left-container{
     margin-left: 0px;
+
+    
 }
 @media (min-width: 992px) { 
 
     .margin-left-container{
     margin-left: 120px;
     }
+
  }
+
+ .buttontop {
+    margin-left: -95px;
+    padding-bottom: 45px;
+
+}

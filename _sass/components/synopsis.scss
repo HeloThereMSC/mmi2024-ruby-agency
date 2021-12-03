@@ -1,8 +1,13 @@
-.texts{
-    font-size: 56px; 
+.title-synopsis{
+    font-size: 38px; 
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
     color: white;
-
+    margin-top: 77px;
+    margin-bottom: 44px;
+    max-height: 200px;
 }
+
 .des {
     font-size: 24px;
     margin-top: 50px;
@@ -10,54 +15,59 @@
     margin-left: 100px;
     font-family: 'Open Sans', sans-serif;
     line-height: 135%;
+    justify-content: space-between;
 
 }
 .synopsis {
     line-height: 120%;
     background-color: #353535;
-    display: flex;
 }
 .j1 {
     display: flex;
+    margin:auto;
+    margin-top: 120px;
+    max-height: 5%;
 
-    margin-left: 150px;
-    margin-top: 50px;
 }
-
+.ba-parent{
+    margin-left: 261px;
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
 .ba{
 
-
+// align-self: flex-start;
     text-align: center;
     text-decoration: none;
     color: black;
     background-color: #C4A32E;
     padding: 7px;
     border-radius: 10px;
-    transition: 0.25s;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 19px;
     border: 3px solid #C4A32E;
 
 }
-
-.synop
-{
-    font-weight: bold;
-    color: white;
-    display : block;
+.ba:hover{
     text-decoration: none;
+    transition: 0.25s;
+    background-color:  #353535;
+    border: 3px solid #C4A32E;
+    color: rgb(255, 255, 255);
 }
 
-span {
-    font-weight: bold;
-    font-size: 38px;
-    max-height: 200px;
-    font-family: 'Poppins';
 
+.row{
+    justify-content: space-between;
+    max-height: 100%;
+}
+
+.col-4 {
+    max-height: 5%;
 }
 
 .sec_boutton{
     background-color: #353535;
-    padding-bottom: 150px;
+
 }

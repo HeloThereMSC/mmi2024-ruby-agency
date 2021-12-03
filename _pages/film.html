@@ -16,8 +16,25 @@ title: Jumanji
     <section>
     {% include avis.html %}
     </section>
+    
+    {% include recommandation.html %}
     <article>
         {% include location.html %}
     </article>
-    {% include recommandation.html %}
 </section>
+<script>console.log("chargement")
+ 
+var date=document.getElementById("date")
+    var flechedroite=document.getElementById("reservationdroite")
+    var index=0
+    date.style.transform="translateX("+index * -12.5+"%)"
+    function clickdroit(){
+        index++
+        if(index>4){
+            index=0
+        }
+        date.style.transform="translateX("+index * -12.5+"%)"
+    }
+    flechedroite.onclick= clickdroit
+</script>
+
