@@ -5,10 +5,17 @@
     justify-content:space-between;
     align-items:center;
     background-color: white;
+@media (min-width:992px) {
+        .lastmin{
+            
+        }
+    }
+    
 
-    .title{
-        font-weight: bold;
-        font-size: 47px;
+
+.title{
+    font-weight: bold;
+    font-size: 47px;
     }
 .title-film{
     font-family: 'poppins';
