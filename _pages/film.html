@@ -38,3 +38,19 @@ var date=document.getElementById("date")
     flechedroite.onclick= clickdroit
 </script>
 
+<script>console.log("chargement")
+ 
+    var heure=document.getElementById("heure")
+        var flechedroite1=document.getElementById("heuredroite")
+        var index=0
+        heure.style.transform="translateX("+index * -12.5+"%)"
+        function clickdroit(){
+            index++
+            if(index>4){
+                index=0
+            }
+            heure.style.transform="translateX("+index * -12.5+"%)"
+        }
+        flechedroite1.onclick= clickdroit
+</script>
+
