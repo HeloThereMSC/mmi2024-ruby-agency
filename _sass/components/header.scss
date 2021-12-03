@@ -98,6 +98,7 @@ ul{
     
 }
 
+
 .menu a{
         text-decoration: none;
         color: white;
@@ -105,11 +106,17 @@ ul{
     
 
 .item-menu{
-    width: 200px;
-    align-items: center;
-    text-align: center;
-    transition: 0.25s;
-    
+
+display: none;
+}
+@media (min-width:992px) {
+    .menu1{
+        display: flex;
+        width: 200px;
+        align-items: center;
+        text-align: center;
+        transition: 0.25s;
+    }
 }
 
 .item-menu:hover{
