@@ -109,17 +109,15 @@ ul{
     align-items: center;
     text-align: center;
     transition: 0.25s;
+    
 }
 
 .item-menu:hover{
-    background: blue;
-    margin-top: 15px;
     border-radius: 1px;
     transition: 0.5 ease-in-out;
 }
-.carre-film{
-    background-color: red;
-}
+
+
 .subnav{
     position: absolute;
     align-items: center;
@@ -131,6 +129,7 @@ ul{
     color: white;
     font-family:'Open Sans', sans-serif;
     font-weight: 200;
+    
 }
 
 
@@ -138,6 +137,10 @@ ul{
 .item-menu:hover {
     .subnav{
         max-height: 300px;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
     }
 } 
 
@@ -160,12 +163,14 @@ ul.subnav{
         text-decoration-line:underline;
         text-decoration-color: #C4A32E;
         transition: 0.25s ease-in-out;
+        
     }
 
     a:hover {
         text-decoration-line:underline;
         text-decoration-color: #C4A32E;
         transition: 0.25s ease-in-out;
+        
     }
 }
 
