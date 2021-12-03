@@ -129,25 +129,29 @@ display: none;
     position: absolute;
     align-items: center;
     background-color: #C4A32E;
-    transition: 0.5s ease-in-out;
-    max-height: 0px;
+    transition:  0.5s ease-in-out;
     overflow: hidden;
     text-align: left;
     color: white;
     font-family:'Open Sans', sans-serif;
     font-weight: 200;
-    
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    visibility: hidden;
+    margin-top: 150px;
+    transform: scaleY(0);
+    max-height: 300px;
+    transform-origin: top;
 }
 
 
 
 .item-menu:hover {
     .subnav{
-        max-height: 300px;
-        padding-top: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 5px;
+        visibility: visible;
+        transform: scaleY(1);
     }
 } 
 
@@ -181,7 +185,7 @@ ul.subnav{
     }
 }
 
-.button2:hover{
+.button2:hover{ 
     background-color: rgba($color: #C4A32E , $alpha: 0.5);
     transition: 0.25s;
 }
