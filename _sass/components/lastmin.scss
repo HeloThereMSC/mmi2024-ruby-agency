@@ -5,11 +5,7 @@
     justify-content:space-between;
     align-items:center;
     background-color: white;
-@media (min-width:992px) {
-        .lastmin{
-            
-        }
-    }
+}
     
 
 
@@ -25,7 +21,7 @@
     margin-bottom: 20px;
     margin-top: 116px;
 }
-}
+
 .lastmin .title {
     margin: 0;
     font-size: 47px;
@@ -37,16 +33,22 @@
 
 .list-film {
     max-width: 100%;
-    padding: 0;
-    display: flex;
+    padding: 0px;
+    display: block;
     flex-direction: row;
     list-style: none;
-    justify-content: flex-start;
-    align-items:flex-start;
     text-align: center;
     overflow-x: auto;
 
 }
+@media (min-width:992px) {
+    .list-film{
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+    }
+}
+
 .lastmin .affiche img {
     width: 100%;
     opacity: 1;
